@@ -34,6 +34,7 @@ public class GeradorSubConjuntos {
         return colecaoSubConjuntos;
     }
 
+    // main para testar saida
     public static void main(String[] args) {
         Set<Integer> conjuntoTeste = new HashSet<>();
         conjuntoTeste.add(1);
@@ -41,6 +42,6 @@ public class GeradorSubConjuntos {
         conjuntoTeste.add(3);
 
         Set<Set<Integer>> resultado = getSubSets(conjuntoTeste);
-        System.out.println("Subconjuntos gerados: " + resultado);
+        System.out.println(resultado);
     }
 }

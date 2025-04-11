@@ -1,6 +1,3 @@
-# GeradorSubConjuntos
-
-# Prova Técnica - Encora
 
 Este repositório contém as respostas da 3ª etapa do processo seletivo da Encora.
 
